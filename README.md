@@ -1,5 +1,15 @@
 # My Favorite Places
 
+## NOTICE - Utilisation de l'IA
+L'aide de l'intelligence artificielle, et particulièrement du LLM Claude Code a été utilisée sur le projet dans les contextes suivants:
+- Génération de code, pour l'endpoint Bonjour
+- Déboggage de la CI pour le push master (commit 8bc94ea)
+- Vérification de la conformité du README.MD à la consigne (pas de génération directe)
+L'IA n'a pas été utilisée dans les contextes suivants :
+- Génération de docker-compose.yaml
+- Génération du rendu PDF
+- Génération du schéma
+
 Application web permettant à chaque utilisateur de gérer une liste de lieux favoris géolocalisés. Elle sert de support à l'apprentissage de Docker et des pratiques CI/CD.
 
 ## Architecture
